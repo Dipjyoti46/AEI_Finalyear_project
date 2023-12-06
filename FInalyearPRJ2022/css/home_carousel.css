@@ -1,0 +1,14 @@
+body{
+    background-color:#eee;
+}
+.carousel {
+    margin-top: 5px;
+}
+
+.carousel-item img{
+    height:500px;
+}
+.carousel-caption {
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}

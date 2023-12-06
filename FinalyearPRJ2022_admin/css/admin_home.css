@@ -1,0 +1,18 @@
+body{
+    background-color:gray;
+}
+.card-content{
+    margin: 70px;
+    border: 2px solid black;
+}
+.card-body {
+    background-color: rgb(10, 61, 52);
+    color: white;
+
+
+}
+.card-body p{
+    color: yellow;
+    font-weight:bold;
+
+}

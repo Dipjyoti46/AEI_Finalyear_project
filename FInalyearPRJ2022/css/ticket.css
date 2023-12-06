@@ -1,0 +1,109 @@
+body{
+background-image: linear-gradient(to right, rgb(117, 252, 137), rgb(5, 255, 209));
+}
+.ticket-container{
+    align-items: center;
+    display: flex;
+    border: 2px solid black;
+    height: 330px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 20px;;
+    background-image: linear-gradient(to bottom right, rgb(0, 255, 174), rgb(0, 115, 255));
+}
+.ticket-details{
+    height: 280px;
+    width: 550px;
+    margin:5px;
+}    
+.office-details h3{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.office-details p{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.member-count{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    width:100%;
+    margin:5px;
+}
+th{
+    background-color:none;
+    border-top: 2px solid black;
+    color:rgb(0, 0, 0);
+}
+.user-details{
+    margin: 5px;
+}
+.not-confirmed{
+    display:none; /*flex; */
+    width: inherit;
+    height: 40px;
+    background-color:red;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    margin-top:5px;
+    padding: 10px;
+    border-radius:5px;
+}
+.confirmed{
+    width: inherit;
+    height: 40px;
+    background-color:rgb(8, 143, 49);
+    /* justify-content: center; */
+    text-align: center;
+    color:white;
+    margin-top:5px;
+    padding: 10px;
+    border-radius:5px;
+}
+hr{
+    color:rgb(0, 0, 0);
+}
+a{
+    height:40px;
+    margin-top:20px;
+}
+
+@media only screen and (max-width:768px) {
+    .ticket-qr{
+        display:block;
+        margin-top:10px;
+        margin-bottom:50px;
+        margin-left: 50px;
+    }
+    .ticket-container{
+        display: block;
+        border: 2px solid black;
+        height: 680px;
+        padding: 5px;
+        margin: 20px;
+        margin-left: 50px;
+        background-image: linear-gradient(to bottom right, rgb(0, 255, 174), rgb(0, 115, 255));
+    }
+.ticket-details{
+    align-items:center;
+    width:inherit;
+    margin-top:0px;
+}
+.office-details{
+    text-align:center;
+}
+a{
+    margin-top:0;
+    margin-left:160px;
+}
+
+}

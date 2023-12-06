@@ -1,0 +1,50 @@
+.modal_booking{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    margin:0;
+    
+  }
+  .modal_content{
+    display:block;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border-radius:5px;
+    padding: 20px;
+    background-color:aqua;
+  }
+  .btn-book{
+    margin-top: -40px;
+    margin-bottom: 20px;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    border-radius:3px;
+    border:none;
+    color:white;
+    background-color:black;
+  }
+  .btn-book:hover{
+    background-color:red;
+    color:black;
+    font-weight:bold;
+    box-shadow:yellow;
+    
+  }
+  .modal_booking .show{
+    opacity: 1;
+    pointer-events: auto;
+    position:fixed;
+  }
+  body{
+    background-color:gray;
+  }
+  .park_name{
+    color:rgb(255, 0, 0);
+    margin: 20px;
+  }
+  .form-group{
+    padding: 20px;
+  }

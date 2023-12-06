@@ -1,0 +1,104 @@
+body{
+    background-color: cornflowerblue;
+}
+.profile{
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    display:inline-block;
+    align-items: center;
+    margin-top: 0;
+}
+.profile-content{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    
+}
+.profile-backcover-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    background-color:rgb(3, 235, 146);
+}
+.profile-picture-container{
+    display:flex;
+    flex-direction: column;
+    color: rgb(7, 7, 7);
+    height: 400px;
+    align-items: center;
+    background-color: transparent;
+
+
+}
+.profile-picture img{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    background-color: red;
+    border-radius: 50%;
+    border: 5px solid rgb(5, 169, 245);
+}
+.profile-picture img:hover{
+    cursor: pointer;
+    border: 5px solid rgb(70, 168, 5);
+
+}
+.profile-break-line{
+
+    height: 0px;
+    border: none;
+    background-color:transparent;
+
+}
+.profile-subtitle{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 70px;
+    color: white;
+    background-color: rgb(8, 57, 90);
+}
+.profile-subtitle a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+.profile-subtitle:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(5, 169, 245);
+    border:1px solid rgb(0, 0, 0);
+}
+.profile-button{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+}
+.profile-subtitle-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -78px;
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+}
+.profile-subtitle{
+    text-decoration:none;
+    font-size: 20px;
+}
+

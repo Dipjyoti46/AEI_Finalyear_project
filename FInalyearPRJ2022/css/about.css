@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(5, 49, 49);
+}
+.all-info{
+    display:block !important;
+    justify-content:space-between;
+}
+.info-container{
+    color:white;
+    background-color:rgb(5, 49, 49);
+    display:block !important;
+    width: 600px;
+    float:left;
+    margin: 50px;
+    border: 3px solid rgb(255, 255, 0);
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+}
+.image img{
+    margin: 20px;
+    border: 3px solid rgb(238, 255, 0);
+    float: left;
+    border-radius:50%;
+}
+.my-info{
+    padding: 20px;
+    padding-top: 40px;
+}

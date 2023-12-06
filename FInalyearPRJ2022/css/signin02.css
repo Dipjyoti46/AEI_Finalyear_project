@@ -1,0 +1,107 @@
+.row{
+
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.page{
+
+    margin-top:0%;
+}
+
+
+
+.btn{
+    border-radius: 25px;
+    width: 80%;
+    margin-top:2%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(75,149,179,1) 55%, rgba(60,236,233,1) 86%);
+}
+.btn:hover{
+    background: rgb(60,236,115);
+background: linear-gradient(90deg, rgb(22, 227, 254) 18%,  rgba(131,58,180,1) 97%);
+}
+
+.sign{
+    border-radius: 25px;
+    width: 25%;
+    margin:auto;
+}
+
+form{
+    padding: 0;
+    margin-left: 15%;
+}
+
+.signin{
+    background-color: rgb(10, 106, 126);
+    color: white;
+    padding: 2%;
+    margin: auto;
+}
+.signin lebel{
+    color: white;
+}
+
+.signup{
+    padding: 2%;
+    background-color: rgb(50, 173, 197);
+    background-color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(75,149,179,1) 55%, rgba(60,236,233,1) 86%);
+}
+
+.form-control{
+    width: 80%;
+    border-radius: 25px;
+}
+
+.fa{
+   color: white;
+   margin-top: 5%;
+   
+}
+
+.in{
+    color: #e6eff8;
+    margin-right: 100%;
+}
+.in2{
+    color: #495057;
+    margin-right: auto;
+}
+
+.my{
+    background-color:#bcc2be;
+    border:none; 
+}
+
+.custom-control{
+    margin-bottom: 2%;
+} 
+
+h2.account-text{
+color:#fff !important;
+font-weight:200;
+}
+
+.account-description{
+    color:#fff;
+    margin-bottom:4%;
+    font-weight:200;
+}
+.signin-form{
+    background-color: #bcc2be;
+    padding: 2%;
+    border-radius: 25px;
+    margin-bottom:50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+   row{
+
+
+        margin-top: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }    }
